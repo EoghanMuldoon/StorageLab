@@ -28,6 +28,7 @@ export class StatusPage {
 
   OnSave() {
   this.storage.set("Status", this.emotion);
+  this.navCtrl.pop();
   }
 
 }
